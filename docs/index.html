@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Golden Slots | Tragamonedas</title>
+<link rel="stylesheet" href="assets/style.css"><script src="assets/script.js" defer></script>
+</head>
+<body>
+<main class="layout">
+<header class="topbar"><div class="mark">🎰 GOLDEN SLOTS</div><div class="right">BONUS TRACK · GITHUB PAGES</div></header>
+<section class="hero"><div class="eyebrow">Un juego clásico, una nueva experiencia</div><h1>TRAGAMONEDAS</h1><p>Probá tu suerte con fichas virtuales. Versión pública para GitHub Pages con las mismas reglas del ejercicio de Python.</p></section>
+<div class="columns">
+<section class="machine" aria-label="Máquina tragamonedas">
+<div class="stats"><div><span>TU SALDO</span><strong id="balance">—</strong></div><div class="bet"><span>APUESTA POR GIRO</span><strong id="bet">10</strong></div></div>
+<div class="reels" aria-label="Tres rodillos"><div class="reel">🍒</div><div class="reel">⭐</div><div class="reel">🔔</div></div>
+<p class="result" id="message" aria-live="polite">¡Presioná GIRAR para comenzar!</p>
+<div class="actions"><button class="primary" type="button" id="spin" disabled>▶ GIRAR RODILLOS</button><form id="recharge-form" class="recharge"><label for="amount" class="sr-only">Cantidad de fichas</label><input id="amount" type="number" value="50" min="1" max="100000" step="1" required><button type="submit" class="secondary" id="recharge">+ CARGAR FICHAS</button></form></div>
+</section>
+<aside class="side"><h2>ÚLTIMAS TIRADAS</h2><p class="sub">Historial guardado en este navegador</p><div class="history" id="history"><div class="empty">Todavía no hay jugadas.</div></div><div class="rules"><div><span>3 símbolos iguales</span><strong>100 fichas</strong></div><div><span>2 símbolos iguales</span><strong>10 fichas</strong></div><div><span>Sin coincidencias</span><strong>0 fichas</strong></div></div><button type="button" class="secondary" id="download-history" style="margin-top:16px;width:100%">DESCARGAR HISTORIAL .TXT</button></aside>
+</div>
+<footer class="footer">Proyecto complementario del Trabajo Final Integrador · Solo fichas virtuales</footer>
+</main></body></html>
